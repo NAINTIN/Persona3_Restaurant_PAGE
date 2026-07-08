@@ -1,0 +1,36 @@
+*{
+    background-color: rgb(16, 165, 215);
+}
+
+ul {
+    display:flex;
+    justify-content: space-between;
+}
+
+.home-page{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.about-page{
+    display:flex;
+    background-image: url("./images/about-persona.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-height: 125vh;
+    overflow-y: auto;
+    margin-top: 50px;
+}
+
+button{
+    color:black;
+    border: 1px solid white;
+    text-decoration: none;
+    cursor:pointer;
+    font-size:16px;
+    padding: 15px 32px;
+}
