@@ -1,7 +1,9 @@
 
 import "./style.css"
-import {imageHeader, home} from "./home.js"
+import  home from "./home.js"
 import aboutPage from "./about.js"
+import createMenu from "./menu.js"
+import createContactMenu from "./contact.js"
 
 const content = document.getElementById("content")
 
@@ -9,6 +11,7 @@ const content = document.getElementById("content")
 
 const homePage = document.getElementById("home")
 const menu = document.getElementById("menu")
+const contact = document.getElementById("contact")
 
 homePage.addEventListener("click", () => {
     content.innerHTML = ""
@@ -22,7 +25,12 @@ about.addEventListener("click", () =>{
 
 menu.addEventListener("click", ()=>{
     content.innerHTML = ""
-    
+    createMenu(content)
+})
+
+contact.addEventListener("click", () => {
+    content.innerHTML = ""
+    createContactMenu(content)
 })
 
 
