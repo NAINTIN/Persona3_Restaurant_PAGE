@@ -1,10 +1,10 @@
 
-import headerimg from "./images/persona3-collab.png"
-import makotoImg from "./images/makoto_burger.jpg"
-import yukariImg from "./images/yukari_ice.jpg"
-import aigisImg from "./images/aigis_maid.jpg"
-import authorImg from "./images/persona3_wendys.jpg"
-import ctaImg from "./images/john_persona3-box-art.png"
+import headerimg from "./images/persona3-collab.webp"
+import makotoImg from "./images/makoto_burger.webp"
+import yukariImg from "./images/yukari_ice.webp"
+import aigisImg from "./images/aigis_maid.webp"
+import authorImg from "./images/persona3_wendys.webp"
+import ctaImg from "./images/john_persona3-box-art.webp"
 
 function home(parent){
     const wrapper = document.createElement("div")

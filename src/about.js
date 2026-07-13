@@ -1,4 +1,4 @@
-import personaImage from "./images/about-persona.png"
+import personaImage from "./images/about-persona.webp"
 
 
 function aboutPage(parent){

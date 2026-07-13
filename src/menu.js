@@ -1,12 +1,12 @@
-import image1 from "./images/makoto_food.png"
-import image2 from "./images/mitsuru_food.png"
-import image3 from "./images/akihiko_food.png"
-import image4 from "./images/elizabeth_food.png"
-import image5 from "./images/fuuka_food.png"
-import image7 from "./images/junpei_drink.png"
-import image6 from "./images/yukari_drink.png"
-import image8 from "./images/aigis_drink.png"
-import image9 from "./images/john_persona3.png"
+import image1 from "./images/makoto_food.webp"
+import image2 from "./images/mitsuru_food.webp"
+import image3 from "./images/akihiko_food.webp"
+import image4 from "./images/elizabeth_food.webp"
+import image5 from "./images/fuuka_food.webp"
+import image7 from "./images/junpei_drink.webp"
+import image6 from "./images/yukari_drink.webp"
+import image8 from "./images/aigis_drink.webp"
+import image9 from "./images/john_persona3.webp"
 
 
 

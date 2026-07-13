@@ -200,7 +200,7 @@ hr{
 
 .about-page{
     display:flex;
-    background-image: url("./images/about-persona.png");
+    background-image: url("./images/about-persona.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top center;
@@ -252,7 +252,7 @@ button{
 
 
 .contact-menu{
-    background-image:url("./images/contact.png");
+    background-image:url("./images/contact.webp");
     background-size:cover;
     background-repeat: no-repeat;
     min-height:90vh;
