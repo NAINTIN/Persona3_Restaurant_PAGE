@@ -6,7 +6,7 @@ A fan-made concept website celebrating a  crossover between **Persona 3 Reload**
 
 ## About
 
-Every HTML project I've made in The Odin Project has, without fail, ended up Persona 3 Reload themed. So when it came time to build the restaurant project, I honestly had no idea how to design it — until I came across the most-liked community solution, inspired by a **Persona 5 collab cafe website**. That project gave me the direction I needed to get started.
+Every HTML project I've made in The Odin Project has, without fail, ended up Persona 3 Reload themed. So when it came time to build the restaurant project, I honestly had no idea how to design it — until I came across the most-liked community solution, inspired by a **Persona 5 collab cafe website**. That project gave me the direction I needed to get started. The purpose of this project is to practice bundling multiple web pages using webpack, and to add every html element using only javascript(very hard!).
 
 Once again, thank you very much to [**pret3nti0u5**](https://github.com/pret3nti0u5) for the inspiration!
 
