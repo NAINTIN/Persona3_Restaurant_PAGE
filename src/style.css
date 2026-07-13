@@ -1,9 +1,13 @@
 
-
-
-
 body {
     background-color:  rgb(16, 165, 215);
+    background-image:
+    radial-gradient(ellipse 800px 400px at 50% 0%, rgba(120, 230, 255, 0.6), transparent 60%),
+    radial-gradient(ellipse 300px 200px at 30% 10%, rgba(150, 240, 255, 0.4), transparent 70%),
+    radial-gradient(ellipse 300px 200px at 70% 15%, rgba(150, 240, 255, 0.4), transparent 70%),
+    linear-gradient(to bottom, #1ec8e8 0%, #0a8fd6 30%, #0a5fc4 70%, #073d8a 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 ul {
@@ -12,10 +16,10 @@ ul {
     list-style: none;
 }
 
+
 .home-page{
     overflow:hidden;
     padding-top: 130px;
-    background-color: rgb(16, 165, 215);
     display:flex;
     flex-direction: column;
     min-height: 100vh;
@@ -150,6 +154,50 @@ hr{
     align-self:flex-end;
 }
 
+
+.cta-container{
+    display:flex;
+    position:relative;
+    flex-direction: column;
+    margin-top: 12vh;
+    align-items: center;
+    padding:50px;
+}
+
+
+.cta-button-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+    gap:10px;
+}
+
+.cta-button1{
+    background-color: rgb(255, 0, 0);
+    border-style: none;
+    border-radius: 20px;
+}
+
+.cta-button2{
+   background-color: transparent;
+   color:white
+}
+
+.cta-img-container{
+    
+   position:absolute;
+   left:-2%;
+   bottom: -30%;
+   
+}
+
+.cta-img-container img {
+    width:550px;
+    height:300px;
+}
+
+
 .about-page{
     display:flex;
     background-image: url("./images/about-persona.png");
@@ -171,14 +219,14 @@ button{
 }
 
 .menu-page{
-    background-color:  rgb(16, 165, 215);;
     margin-top:80px;
+    min-height:100vh;
 }
 
 
 .article{
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     padding:2em;
     max-width:1200px;
     margin: 0 auto;
@@ -220,4 +268,19 @@ button{
 .img-container img{
     width:50%;
     height:50%;
+}
+
+.page-overlay{
+    position:fixed;
+    width:100%;
+    height:100%;
+    inset:0; /* important for covering entire viewport */
+    background-color: #0B367A;
+    clip-path: circle(0% at 100% 100%);
+    transition: clip-path 0.6s ease; /* uses the same circle as the transition */
+}
+
+.page-overlay.active{
+    /* changes the radius of the circle to cover entire screen */
+    clip-path:circle(150% at 100% 100%);
 }

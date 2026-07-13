@@ -4,6 +4,7 @@ import makotoImg from "./images/makoto_burger.jpg"
 import yukariImg from "./images/yukari_ice.jpg"
 import aigisImg from "./images/aigis_maid.jpg"
 import authorImg from "./images/persona3_wendys.jpg"
+import ctaImg from "./images/john_persona3-box-art.png"
 
 function home(parent){
     const wrapper = document.createElement("div")
@@ -45,6 +46,7 @@ function home(parent){
 
     wrapper.appendChild(createbody())
     wrapper.appendChild(createQuote())
+    wrapper.appendChild(createCTA())
     parent.appendChild(wrapper)
 }
 
@@ -120,6 +122,41 @@ function createQuote(){
     
 
     return quoteContainer
+}
+
+function createCTA(){
+    const ctaContainer = document.createElement("div")
+    ctaContainer.classList.add("cta-container")
+
+    const buttonContainer = document.createElement("div")
+    buttonContainer.classList.add("cta-button-container")
+
+    const text = document.createElement('h3')
+    text.textContent = 'Ready to summon your order?'
+    text.classList.add("text-container")
+
+    const imgContainer = document.createElement('div')
+    imgContainer.classList.add('cta-img-container')
+
+    const img = document.createElement('img')
+    img.src = ctaImg
+
+    const button1 = document.createElement("button")
+    button1.innerText = 'View Menu'
+    button1.classList.add("cta-button1")
+
+    const button2 = document.createElement("button")
+    button2.innerText = 'Find a location'
+    button2.classList.add('cta-button2')
+
+    imgContainer.appendChild(img)
+    buttonContainer.appendChild(button1)
+    buttonContainer.appendChild(button2)
+    ctaContainer.appendChild(text)
+    ctaContainer.appendChild(imgContainer)
+    ctaContainer.appendChild(buttonContainer)
+
+    return ctaContainer
 }
 
 export  default home
