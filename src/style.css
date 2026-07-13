@@ -1,5 +1,8 @@
 
-body {
+
+
+html,body {
+    min-height: 100%; /* this fixes the viewport problem on different browsers */
     background-color:  rgb(16, 165, 215);
     background-image:
     radial-gradient(ellipse 800px 400px at 50% 0%, rgba(120, 230, 255, 0.6), transparent 60%),
@@ -204,7 +207,7 @@ hr{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top center;
-    min-height: 125vh;
+    min-height: 150vh;
     overflow-y: auto;
     margin-top: 50px;
 }
@@ -219,16 +222,16 @@ button{
 }
 
 .menu-page{
-    margin-top:80px;
-    min-height:100vh;
+    margin-top:12px;
+    min-height:50vh;
 }
 
 
 .article{
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     padding:2em;
-    max-width:1200px;
+    max-width:1000px;
     margin: 0 auto;
     gap: 30px;
 }
