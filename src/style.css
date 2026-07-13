@@ -222,7 +222,7 @@ button{
 }
 
 .menu-page{
-    margin-top:12px;
+    margin-top:30px;
     min-height:50vh;
 }
 
@@ -286,4 +286,8 @@ button{
 .page-overlay.active{
     /* changes the radius of the circle to cover entire screen */
     clip-path:circle(150% at 100% 100%);
+}
+
+.footer{
+    min-height:40vh;
 }

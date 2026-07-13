@@ -38,14 +38,7 @@ function createMenu(parent){
     const card7 = createCardMenu(image7)
     const card8 = createCardMenu(image8)
    
-    const footer = document.createElement('div')
-    footer.classList.add("footer")
-
-    const imageContainer = document.createElement('div')
-    imageContainer.classList.add("img-container")
-
-    const img9 = document.createElement("img")
-    img9.src = image9
+    
   
     article.appendChild(card1)
     article.appendChild(card2)
@@ -56,10 +49,24 @@ function createMenu(parent){
     article.appendChild(card7)
     article.appendChild(card8)
     wrapper.appendChild(article)
+    wrapper.appendChild(footerDialogue())
+    parent.appendChild(wrapper)
+}
+
+function footerDialogue(){
+    const footer = document.createElement('div')
+    footer.classList.add("footer")
+
+    const imageContainer = document.createElement('div')
+    imageContainer.classList.add("img-container")
+
+    const img9 = document.createElement("img")
+    img9.src = image9
+
     imageContainer.appendChild(img9)
     footer.appendChild(imageContainer)
-    wrapper.appendChild(footer)
-    parent.appendChild(wrapper)
+
+    return footer
 }
 
 export default createMenu;
