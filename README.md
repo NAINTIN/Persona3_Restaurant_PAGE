@@ -1,6 +1,6 @@
 # Persona 3 Reload × Wendy's Collaboration
 
-A fan-made concept website celebrating a (fictional) crossover between **Persona 3 Reload** and **Wendy's Japan**. Built as part of [The Odin Project](https://www.theodinproject.com/) curriculum.
+A fan-made concept website celebrating a  crossover between **Persona 3 Reload** and **Wendy's Japan**. Built as part of [The Odin Project](https://www.theodinproject.com/) curriculum.
 
 ---
 
@@ -78,11 +78,12 @@ src/
 ## Credits
 
 - Design inspiration: [pret3nti0u5](https://github.com/pret3nti0u5)'s Persona 5 collab cafe website
-- Character art & collaboration concept: Persona 3 Reload (Atlus) × Wendy's Japan (fan concept, not affiliated with either brand)
+- Character art & collaboration concept: Persona 3 Reload (Atlus) × Wendy's Japan 
 - Fonts: [Anton](https://fonts.google.com/specimen/Anton) & [Antic Slab](https://fonts.google.com/specimen/Antic+Slab) via Google Fonts
 
 ---
 
 ## Disclaimer
 
-This is a non-commercial fan project made for learning purposes as part of The Odin Project curriculum. Persona 3 Reload and all related characters are property of Atlus. Wendy's is a registered trademark of The Wendy's Company. No affiliation with either brand is claimed or implied.
+This is a non-commercial fan project made for learning purposes as part of The Odin Project curriculum. Persona 3 Reload and all related characters are property of Atlus. Wendy's is a registered trademark of The Wendy's Company. 
+
