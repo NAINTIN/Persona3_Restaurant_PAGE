@@ -11,12 +11,18 @@ import image9 from "./images/john_persona3.webp"
 
 
 
-function createCardMenu(image){
+function createCardMenu(image,caption){
     const card = document.createElement('div')
     card.classList.add('cards')
+
     const img = document.createElement('img')
-    img.src = image 
+    img.src = image
+    
+    const text = document.createElement('p')
+    text.textContent = caption
+
     card.appendChild(img)
+    card.appendChild(text)
 
     return card
 }
@@ -28,15 +34,15 @@ function createMenu(parent){
     const article = document.createElement("div")
     article.classList.add("article")
 
-    const card1 = createCardMenu(image1)
+    const card1 = createCardMenu(image1,"Wild Duck Burger")
 
-    const card2 = createCardMenu(image2)
-    const card3 = createCardMenu(image3)
-    const card4 = createCardMenu(image4)
-    const card5 = createCardMenu(image5)
-    const card6 = createCardMenu(image6)
-    const card7 = createCardMenu(image7)
-    const card8 = createCardMenu(image8)
+    const card2 = createCardMenu(image2,"Spicy Bacon Arrabbiata")
+    const card3 = createCardMenu(image3, "Cheese Nuggets with Ketchup")
+    const card4 = createCardMenu(image4, "Fried Chicken Takoyaki")
+    const card5 = createCardMenu(image5, "Yamagishi Fuuka Burger")
+    const card6 = createCardMenu(image6,"Strawberry Milk Float")
+    const card7 = createCardMenu(image7, "Blue Soft Serve")
+    const card8 = createCardMenu(image8, "Lemon Mango Tapioca")
    
     
   
